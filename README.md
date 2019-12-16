@@ -7,16 +7,12 @@ In the CSP approach, the problem is formulated in terms of the variables V, each
 
 -----Argument List---------
 The Python Code takes 4 arguments:
-# arg1 -
-Backward Tracking algorithms:
+#arg1 - Backward Tracking algorithms:
 		MAC for Maintaining Arc-Consistency
 		FOR for Forward Checking
-# arg2 -
-Number of Queens, N (which is equal to the number of rows and columns)
-# arg3 -
-Name of CFile, which will print the variables, domainns, constraints
-# arg4 -
-Name of RFile, which will print at most 20 fundamental solutions
+#arg2 - Number of Queens, N (which is equal to the number of rows and columns)
+#arg3 - Name of CFile, which will print the variables, domainns, constraints
+#arg4 - Name of RFile, which will print at most 20 fundamental solutions
 
 -----Miscellaneous----------
 All queen variables – Q1, Q2, …Qn are referenced in the code as 0, 1, 2… n-1.
